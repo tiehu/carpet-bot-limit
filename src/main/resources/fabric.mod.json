@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "carpetbotlimit",
+	"version": "${version}",
+	"name": "CarpetBotLimit",
+	"description": "Limits carpet fake player creation to bot_<playerName> per player.",
+	"authors": [
+		"tiehu"
+	],
+	"contact": {
+		"sources": "https://github.com/tiehu/carpet-bot-limit"
+	},
+	"license": "MIT",
+	"icon": "assets/carpetbotlimit/icon.png",
+	"environment": "server",
+	"mixins": [
+		"carpetbotlimit.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"carpet": "*"
+	}
+}
